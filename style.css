@@ -1,5 +1,5 @@
 body{
-    background-color: lawngreen;
+    background-color: palegreen;
 }
 
 #score{
@@ -24,4 +24,29 @@ body{
     font-weight: 900;
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+canvas{
+    border: 5px solid white;
+    margin-top: 110px;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px black;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+
+h1{
+    background-color: cornsilk;
+    color: cadetblue;
+    padding-left: 120px;
+}
+
+#show_sketch{
+    float: right;
+    margin-right: 20px;
 }
